@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tinh hinh tru"
+        android:textSize="55dp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Ban kinh: "/>
+        <EditText
+            android:id="@+id/et_Bankinh"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Chieu cao: "/>
+        <EditText
+            android:id="@+id/et_Chieucao"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/rb_dientich"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dien tich"/>
+        <RadioButton
+            android:id="@+id/rb_thetich"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The tich"/>
+    </RadioGroup>
+    <Button
+        android:id="@+id/btn_tt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tinh toan"/>
+    <TextView
+        android:id="@+id/tv_kqua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"/>
+</LinearLayout>
